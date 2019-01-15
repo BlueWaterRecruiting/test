@@ -9,7 +9,7 @@ class PagesController extends Controller
     //
     public function home()
   {
-      return view('welcome.blade.php',
+      return view('welcome',
         ['Blue Water Recruiting'
       ]);
   }
