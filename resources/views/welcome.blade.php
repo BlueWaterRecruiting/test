@@ -85,12 +85,12 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://bluwtr.com/About">About</a>
+                    <a href="https://bluwtr.com/Contact">Contact Us</a>
+                    <a href="https://bluwtr.com/Posting">Jobs</a>
+                    <a href="https://bluwtr.com/clientportal">Client</a>
+                    <a href="https://bluwtr.com/candidatelogin">Candidate</a>
+                    <a href="https://bluwtr.com/amportal">Account Manager</a>
                 </div>
             </div>
         </div>
