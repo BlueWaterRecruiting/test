@@ -1,58 +1,65 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="{{url('/')}}">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
+<nav class="navbar is-fixed-top has-box-shadow" role="navigation" aria-label="main navigation" style="opacity:.98;">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{url('/')}}">
+        <img src="{{asset('/images/logo.png')}}" alt="">
       </a>
 
-      <a class="navbar-item">
-        Documentation
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
     </div>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a href="{{route('register')}}"class="button is-primary">
-            <strong>Sign up</strong>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item is-tab">
+          Services
+        </a>
+        <a class="navbar-item is-tab">
+          Candidates
+        </a>
+        <a class="navbar-item is-tab">
+          Jobs
+        </a>
+        <a class="navbar-item is-tab">
+          About Us
+        </a>
+        <a class="navbar-item is-tab">
+          Contact Us
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Portal
           </a>
-          <a href="{{route('login')}}"class="button is-light">
-            Log in
-          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Cliens
+            </a>
+            <a class="navbar-item">
+              Candidates
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="{{route('login')}}"class="button is-light">
+              Log in
+            </a>
+            <a href="{{route('register')}}"class="button is-primary">
+              <strong>Register</strong>
+            </a>
+          </div>
         </div>
       </div>
     </div>

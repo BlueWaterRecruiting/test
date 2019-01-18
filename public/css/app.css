@@ -11556,3 +11556,11 @@ label.panel-block:hover {
   padding-right: 100px !important;
 }
 
+.has-drop-shadow {
+  box-shadow: 0px 7px 8px -6px black;
+}
+
+.has-box-shadow {
+  box-shadow: 0px 0px 40px -18px #8a8a8a;
+}
+

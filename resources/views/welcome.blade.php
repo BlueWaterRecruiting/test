@@ -1,5 +1,14 @@
 @extends('layouts.app')
-
+@section('content')
+  <section class="hero is-bold is-light is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <div class="column is-half is-offset-3">
+          <img src="{{asset('/images/main-logo.png')}}" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 {{-- <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
