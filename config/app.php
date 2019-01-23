@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        BlueWaterStaffing\Providers\AppServiceProvider::class,
+        BlueWaterStaffing\Providers\AuthServiceProvider::class,
+        // BlueWaterStaffing\Providers\BroadcastServiceProvider::class,
+        BlueWaterStaffing\Providers\EventServiceProvider::class,
+        BlueWaterStaffing\Providers\RouteServiceProvider::class,
 
     ],
 

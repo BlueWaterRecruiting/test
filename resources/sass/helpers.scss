@@ -12,3 +12,16 @@ $sides: (top, bottom, left, right); // Leave this variable alone
     }
   }
 }
+// CSS helpers, most of the helpers will start with the word has, to keep it simple and making sense.
+
+// Box Shadows
+.has-drop-shadow{
+  -webkit-box-shadow: 0px 7px 8px -6px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 7px 8px -6px rgba(0,0,0,1);
+  box-shadow: 0px 7px 8px -6px rgba(0,0,0,1);
+}
+.has-box-shadow{
+  -webkit-box-shadow: 0px 0px 40px -18px rgba(138,138,138,1);
+  -moz-box-shadow: 0px 0px 40px -18px rgba(138,138,138,1);
+  box-shadow: 0px 0px 40px -18px rgba(138,138,138,1);
+}
