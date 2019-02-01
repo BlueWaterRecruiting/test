@@ -9,8 +9,8 @@ class PagesController extends Controller
     //
     public function home()
   {
-      return view('welcome',
-        ['Blue Water Recruiting'
+      return view('welcome');
+  }
       ]);
   }
 }
