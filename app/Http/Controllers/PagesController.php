@@ -11,6 +11,4 @@ class PagesController extends Controller
   {
       return view('welcome');
   }
-      );
-  }
-}
+    
