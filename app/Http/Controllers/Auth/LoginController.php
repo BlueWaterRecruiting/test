@@ -1,6 +1,6 @@
 <?php
 
-namespace BlueWater\Http\Controllers\Auth;
+namespace BlueWaterStaffing\Http\Controllers\Auth;
 
 use BlueWaterStaffing\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
