@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('page-title','Blue Water Staffing')
 @section('content')
   <section class="hero is-bold is-light is-fullheight-with-navbar">
     <div class="hero-body">

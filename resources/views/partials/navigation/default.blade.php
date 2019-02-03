@@ -18,9 +18,6 @@
           Services
         </a>
         <a class="navbar-item is-tab">
-          Candidates
-        </a>
-        <a class="navbar-item is-tab">
           Jobs
         </a>
         <a class="navbar-item is-tab">
@@ -37,14 +34,13 @@
 
           <div class="navbar-dropdown">
             <a class="navbar-item">
-              Cliens
+              Clients
             </a>
             <a class="navbar-item">
               Candidates
             </a>
-            <hr class="navbar-divider">
             <a class="navbar-item">
-              Report an issue
+              Account Manager
             </a>
           </div>
         </div>
