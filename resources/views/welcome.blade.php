@@ -15,7 +15,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Blue Water Recruiting</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -24,7 +24,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #197aaa;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -60,7 +60,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #197aaa;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -92,16 +92,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Blue Water Recruiting
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://bluwtr.com/About">About</a>
+                    <a href="https://bluwtr.com/Contact">Contact Us</a>
+                    <a href="https://bluwtr.com/Posting">Jobs</a>
+                    <a href="https://bluwtr.com/clientportal">Client</a>
+                    <a href="https://bluwtr.com/candidatelogin">Candidate</a>
+                    <a href="https://bluwtr.com/amportal">Account Manager</a>
                 </div>
             </div>
         </div>
