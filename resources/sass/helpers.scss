@@ -25,3 +25,16 @@ $sides: (top, bottom, left, right); // Leave this variable alone
   -moz-box-shadow: 0px 0px 40px -18px rgba(138,138,138,1);
   box-shadow: 0px 0px 40px -18px rgba(138,138,138,1);
 }
+.has-image-overlay{
+  position: relative;
+  overflow: hidden;
+}
+.banner-overlay, .box-overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom:0;
+  background-position: center;
+  background-size: cover;
+}

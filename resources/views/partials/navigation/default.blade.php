@@ -14,16 +14,16 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item is-tab">
+        <a class="navbar-item is-tab {{Route::is('services*') ? 'is-active' : ''}}" href="{{route('services')}}">
           Services
         </a>
-        <a class="navbar-item is-tab">
+        <a class="navbar-item is-tab {{Route::is('jobs*') ? 'is-active' : ''}}" href="{{route('jobs')}}">
           Jobs
         </a>
-        <a class="navbar-item is-tab">
+        <a class="navbar-item is-tab {{Route::is('about*') ? 'is-active' : ''}}" href="{{route('about')}}">
           About Us
         </a>
-        <a class="navbar-item is-tab">
+        <a class="navbar-item is-tab {{Route::is('contact*') ? 'is-active' : ''}}" href="{{route('contact')}}">
           Contact Us
         </a>
 

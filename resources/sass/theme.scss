@@ -1,0 +1,11 @@
+$bluwtr: hsl(200, 73, 38);
+$primary: $bluwtr;
+$orange: hsl(27,85%,42%);
+$secondary: $orange;
+
+.background-primary{
+  background-color: $primary;
+}
+.background-secondary{
+  background-color: $secondary;
+}

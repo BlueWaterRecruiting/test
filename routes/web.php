@@ -19,10 +19,8 @@ Auth::routes();
 
 
 //Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/', 'pagescontroller@home');
-Route::get('/Contact', 'pagescontroller@Contact');
-Route::get('/About', 'pagescontroller@About');
-Route::get('/candidatelogin', 'pagescontroller@candidatelogin');
-Route::get('/Posting', 'pagescontroller@Posting');
-Route::get('/clientportal', 'pagescontroller@clientportal');
-Route::get('/amportal', 'pagescontroller@amportal');
+Route::get('/', 'PublicPageController@getLanding')->name('landing');
+Route::get('/jobs', 'PublicPageController@getJobs')->name('jobs');
+Route::get('/services', 'PublicPageController@getServices')->name('services');
+Route::get('/about-us', 'PublicPageController@getAbout')->name('about');
+Route::get('/contact-us', 'PublicPageController@getContact')->name('contact');

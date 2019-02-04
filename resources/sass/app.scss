@@ -1,7 +1,7 @@
-// Variables
-@import 'variables';
 
+@import 'variables';
+@import "helpers";
+@import "theme";
 
 // CSS Bulma
 @import 'node_modules/bulma/bulma';
-@import "helpers.scss";
