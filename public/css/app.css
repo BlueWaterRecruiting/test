@@ -408,6 +408,12 @@
   background-size: cover;
 }
 
+.is-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+
 .background-primary {
   background-color: #1a78a8;
 }

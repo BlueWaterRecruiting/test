@@ -1,24 +1,22 @@
 @extends('layouts.app')
 @section('page-title','Blue Water Staffing')
 @section('content')
-  <section class="hero is-light is-fullheight-with-navbar">
+  <section class="hero  is-medium">
     <div class="hero-body">
-      <div class="container">
+      <div class="container has-text-centered">
         <div class="columns">
-          <div class="column is-3">
-            <img src="{{asset('/images/main-logo.png')}}" alt="">
-          </div>
-          <div class="column is-1">
-
-          </div>
           <div class="column">
-            <div class="title">
-              Our Vision
+            <div class="title is-heading">
+                Lorem ipsum dolor sit amet <br> consectetur adipisicing elit <br> sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua<br>
             </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
             <div class="subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.
             </div>
+            <a href="#" class="button is-secondary">Learn More</a>
           </div>
         </div>
       </div>
@@ -29,13 +27,28 @@
       <div class="banner-overlay" style="background-image:url('/images/landing/placeholder-1.jpg');opacity:.1;"></div>
       <div class="hero-body">
         <div class="container">
-          <div class="title">
-            Software
-          </div>
-          <div class="subtitle">
-            Blue Water Staffing utilizes Avionte as our software partner. The Avionte system is scalable, and cloud
-based. This enables all our data to be secure and accessible anywhere and at any time. Avionte also
-provides electronic timekeeping and approval to ensure accurate billing.
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <p class="control is-expanded has-icons-left">
+                  <input class="input" type="text" placeholder="Location">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-location-arrow"></i>
+                  </span>
+                </p>
+              </div>
+              <div class="field">
+                <p class="control is-expanded has-icons-left has-icons-right">
+                  <input class="input is-success" type="email" placeholder="Search Job">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-search"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,11 +1,11 @@
 <nav class="navbar is-fixed-top has-box-shadow" role="navigation" aria-label="main navigation" style="opacity:.98;">
   <div class="container">
-    <div class="navbar-brand">
+    <div class="navbar-brand" style="height:5.25rem;">
       <a class="navbar-item" href="{{url('/')}}">
-        <img src="{{asset('/images/logo.png')}}" alt="">
+        <img src="{{asset('/images/logo.png')}}" alt=""><span class="p-l-10">{{config('app.name')}}</span>
       </a>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" style="height:5.25rem;">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -14,6 +14,9 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
+      </div>
+
+      <div class="navbar-end">
         <a class="navbar-item is-tab {{Route::is('services*') ? 'is-active' : ''}}" href="{{route('services')}}">
           Services
         </a>
@@ -41,19 +44,6 @@
             </a>
             <a class="navbar-item">
               Account Manager
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a href="{{route('login')}}"class="button is-light">
-              Log in
-            </a>
-            <a href="{{route('register')}}"class="button is-primary">
-              <strong>Register</strong>
             </a>
           </div>
         </div>

@@ -25,6 +25,7 @@ $sides: (top, bottom, left, right); // Leave this variable alone
   -moz-box-shadow: 0px 0px 40px -18px rgba(138,138,138,1);
   box-shadow: 0px 0px 40px -18px rgba(138,138,138,1);
 }
+// Image overlay
 .has-image-overlay{
   position: relative;
   overflow: hidden;
@@ -37,4 +38,9 @@ $sides: (top, bottom, left, right); // Leave this variable alone
   bottom:0;
   background-position: center;
   background-size: cover;
+}
+//Heading
+.is-heading{
+  text-transform: uppercase;
+  font-weight: 300;
 }
